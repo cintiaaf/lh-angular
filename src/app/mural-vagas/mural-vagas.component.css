@@ -5,5 +5,13 @@
 
 .lista-vagas .card{
     margin: 5px 10px;
-    min-height: 500px;
+    min-height: 450px;
+}
+
+.lista-vagas .card:hover{
+    background-color: rgba(95, 158, 160, 0.315);
+}
+
+.card:hover .card-title{
+    font-weight: bold;
 }
